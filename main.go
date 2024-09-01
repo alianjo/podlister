@@ -81,6 +81,7 @@ func main() {
 
 	if *exportFile != "" {
 		// Code to export the results to CSV or JSON can be added here
+
 		fmt.Printf("Results exported to %s\n", *exportFile)
 	}
 
